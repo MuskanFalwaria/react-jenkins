@@ -3,6 +3,7 @@ pipeline {
 
   environment {
     REACT_APP_DIR = 'my-app'
+    TERRAFORM_DIR = 'terraform'
     AZURE_WEBAPP_NAME = 'webapijenkins9828236345'
     AZURE_RG = 'rg-jenkins'
     AZURE_PLAN = 'appserviceplanmuskan'
