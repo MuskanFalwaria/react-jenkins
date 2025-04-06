@@ -5,7 +5,7 @@ pipeline {
     REACT_APP_DIR = 'my-app'
     TERRAFORM_DIR = 'terraform'
     AZURE_WEBAPP_NAME = 'webapijenkins9828236345'
-    AZURE_RG = 'rg-jenkins'
+    AZURE_RG = 'myResourceGroup'
     AZURE_PLAN = 'appserviceplanmuskan'
     TERRAFORM_PATH = '"C:\\Users\\ASUS\\Downloads\\terraform_1.11.3_windows_amd64\\terraform.exe"'
 
