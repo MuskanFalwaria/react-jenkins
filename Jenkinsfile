@@ -36,12 +36,13 @@ pipeline {
 
 
     stage('Terraform Apply') {
-      steps {
-        dir("${TERRAFORM_DIR}") {
-          bat 'terraform apply -auto-approve'
+    steps {
+        dir('terraform') {
+            bat '"C:\\Users\\ASUS\\Downloads\\terraform_1.11.3_windows_amd64\\terraform.exe" apply -auto-approve'
         }
-      }
     }
+}
+
 
     stage('Zip Build Folder') {
       steps {
