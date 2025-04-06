@@ -47,7 +47,7 @@ pipeline {
     stage('Zip Build Folder') {
       steps {
         dir("${REACT_APP_DIR}\\build") {
-          bat 'powershell Compress-Archive -Path * -DestinationPath ..\\build.zip'
+          bat 'powershell Compress-Archive -Path * -DestinationPath ..\\build.zip -Force'
         }
       }
     }
